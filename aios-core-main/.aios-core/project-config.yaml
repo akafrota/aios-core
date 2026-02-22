@@ -1,14 +1,19 @@
 # ============================================
 # AIOS Project Configuration (Level 2)
 # ============================================
-# Project-specific settings shared across the team.
-# This file is committed to git.
+# Frota Mídias — cerne genético do DNA do projeto.
+# Este arquivo é commitado no git.
 #
 # Level: L2 (Project)
 # Mutability: Editable by project maintainers
-# Git status: Committed
 # ADR: ADR-PRO-002 — Configuration Hierarchy
 # ============================================
+
+# --- Company / DNA (Frota Mídias como base) ---
+company:
+  name: "Frota Mídias"
+  product_name: "Frota Mídias AIOS"
+  constitution_ref: "docs/frota-midias/README.md"
 
 # --- Project Metadata (Section 1 - project portion) ---
 project:
@@ -16,18 +21,18 @@ project:
   installed_at: "2025-01-14T00:00:00Z"
   version: "2.1.0"
 
-# --- Documentation Paths (Section 2) ---
+# --- Documentation Paths (Section 2) — Frota Mídias ---
 documentation_paths:
   qa_dir: "docs/qa"
-  prd_file: "docs/prd.md"
+  prd_file: "docs/frota-midias/prd.md"
   prd_version: "v4"
   prd_sharded: true
-  prd_sharded_location: "docs/prd"
-  architecture_file: "docs/architecture.md"
+  prd_sharded_location: "docs/frota-midias/prd"
+  architecture_file: "docs/frota-midias/architecture.md"
   architecture_version: "v4"
   architecture_sharded: true
-  architecture_sharded_location: "docs/architecture"
-  stories_dir: "docs/stories"
+  architecture_sharded_location: "docs/frota-midias/architecture"
+  stories_dir: "docs/frota-midias/stories"
   dev_debug_log: ".ai/debug-log.md"
   slash_prefix: "AIOS"
   custom_technical_documents: null
@@ -131,10 +136,10 @@ logging:
         git_check_cache: true
         git_check_ttl: 300
 
-# --- Story Backlog ---
+# --- Story Backlog (Frota Mídias) ---
 story_backlog:
   enabled: true
-  location: "docs/stories/backlog"
+  location: "docs/frota-midias/stories/backlog"
   prioritization: "value_risk"
 
 # --- pvMindContext ---

@@ -1,7 +1,7 @@
 {
-  "name": "aios-core",
+  "name": "frota-midias-aios",
   "version": "4.2.13",
-  "description": "Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework",
+  "description": "Frota Mídias AIOS: AI-Orchestrated System — Frota Mídias como cerne genético do DNA do projeto",
   "bin": {
     "aios": "bin/aios.js",
     "aios-core": "bin/aios.js",
@@ -103,7 +103,7 @@
     "vite-style",
     "automation"
   ],
-  "author": "Synkra AIOS Team",
+  "author": "Frota Mídias",
   "license": "MIT",
   "repository": {
     "type": "git",

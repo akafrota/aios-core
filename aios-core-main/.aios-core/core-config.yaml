@@ -7,16 +7,16 @@ user_profile: advanced
 qa:
   qaLocation: docs/qa
 prd:
-  prdFile: docs/prd.md
+  prdFile: docs/frota-midias/prd.md
   prdVersion: v4
   prdSharded: true
-  prdShardedLocation: docs/prd
+  prdShardedLocation: docs/frota-midias/prd
   epicFilePattern: epic-{n}*.md
 architecture:
-  architectureFile: docs/architecture.md
+  architectureFile: docs/frota-midias/architecture.md
   architectureVersion: v4
   architectureSharded: true
-  architectureShardedLocation: docs/architecture
+  architectureShardedLocation: docs/frota-midias/architecture
 customTechnicalDocuments: null
 devLoadAlwaysFiles:
   - docs/framework/coding-standards.md
@@ -30,7 +30,7 @@ devLoadAlwaysFilesFallback:
   - docs/es/framework/tech-stack.md
   - docs/es/framework/source-tree.md
 devDebugLog: .ai/debug-log.md
-devStoryLocation: docs/stories
+devStoryLocation: docs/frota-midias/stories
 slashPrefix: AIOS
 toolsLocation: .aios-core/tools
 scriptsLocation:
@@ -239,7 +239,7 @@ pvMindContext:
     communication_style: structured
 storyBacklog:
   enabled: true
-  location: docs/stories/backlog
+  location: docs/frota-midias/stories/backlog
   prioritization: value_risk
 utils:
   helpers:
